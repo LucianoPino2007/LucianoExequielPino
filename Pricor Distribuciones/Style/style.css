@@ -4,10 +4,12 @@ header{
     background-size: contain;
     background-repeat: no-repeat;
 }
-body{
-   background-color: cyan;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#botones{
+    right: auto;
 }
+body{
+   background-image: url(../IMG/Fondo\ \ madera.jpg);
+    font-family: Arial, Helvetica, sans-serif;
 #container{
 
 
