@@ -10,10 +10,28 @@ header{
 body{
    background-image: url(../IMG/Fondo\ \ madera.jpg);
     font-family: Arial, Helvetica, sans-serif;
-#container{
-
 
 }
-.article{
+.clearfix{
+    clear: both;
+}
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 07px;
+}
+nav{
+    background: yellowgreen;
+    height: 29px;
+    width: 400px;
+}
+aside{
+    border: 70px;
+    height: 20px;
+}
 
+
+footer{
+    background-color: black;
+    min-height: 200px;
 }
