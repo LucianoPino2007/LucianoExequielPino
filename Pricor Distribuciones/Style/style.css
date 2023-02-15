@@ -1,4 +1,17 @@
-#titulo {
-    color: aquamarine;
-    
+header{
+    background-image: url(../IMG/encabezado.jpg); 
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+body{
+   background-color: cyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#container{
+
+
+}
+.article{
+
 }
