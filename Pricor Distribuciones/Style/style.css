@@ -4,26 +4,23 @@ header{
     background-size: contain;
     background-repeat: no-repeat;
 }
-#botones{
-    right: auto;
-}
+
 body{
    background-image: url(../IMG/Fondo\ \ madera.jpg);
     font-family: Arial, Helvetica, sans-serif;
 
 }
-.clearfix{
-    clear: both;
-}
-nav ul li {
-    float: left;
+nav{
+    float: right;
     list-style: none;
     margin: 07px;
+    border: 15px;
 }
 nav{
     background: yellowgreen;
-    height: 29px;
-    width: 400px;
+    height: 15px;
+    width: 270px;
+    border-radius: 10px;
 }
 aside{
     border: 70px;
@@ -31,7 +28,49 @@ aside{
 }
 
 
+.ListaVarios{
+
+    margin-right: 25%;
+    justify-content: left;
+ 
+}
+.Listapritty{
+    justify-content: center;
+    margin-right: 25%;
+
+}
+.Listacerveza{
+    justify-content: right;
+    margin-right: 25%;
+
+    }
+h1{
+    color:white;
+    text-align: center;
+}
+.contenido{
+background-color: rgba(139, 139, 0, 0.763);
+width: auto;
+height: auto;
+    
+}
+p{
+    color: gold;
+    text-shadow: 1px 2px 2px black, 0 0 5px blue;
+    text-align: center;
+}
+
 footer{
-    background-color: black;
-    min-height: 200px;
+    min-width: 800px;
+    max-height: max-content;
+    width: 1254px;
+    background-color: rgba(0, 123, 255, 0.587); 
+
+    }
+#mapa{
+    position: relative;
+    right: auto
+    }
+.Link{
+    text-align: initial;
 }
